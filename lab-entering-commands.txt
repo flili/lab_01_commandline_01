@@ -18,6 +18,10 @@ $ ls<ENTER>
 Copy and paste the output of ls below.
 ----------
 
+//Answer
+//Output
+Desktop		Downloads	Movies		Pictures
+Documents	Library		Music		Public
 
 
 ==========
@@ -28,18 +32,27 @@ $ ls D<TAB>
 What happens?  Describe it below.
 ----------
 
+//Answer
+it does not show me anything and it beeps.
 
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
 
+//Answer
+It shows me every folder name start with a "D"
+//Output
+Desktop/   Documents/ Downloads/ 
 
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
 
+//Answer
+//Output
+ls: D: No such file or directory
 
 
 ==========
@@ -50,6 +63,11 @@ $ ls -l Documents<ENTER>
 Copy and paste the first *two lines* of output below.
 ----------
 
+//Answer
+//Output
+total 0
+drwx------+  3 Guest  _guest    96 Sep  2 17:05 Desktop
+drwx------+  3 Guest  _guest    96 Sep  2 17:05 Documents
 
 
 ==========
@@ -59,7 +77,10 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+//Answer
+//Output
+.			  .bash_sessions		Library
+..			.localized	    	Movies
 
 
 ==========
@@ -69,7 +90,8 @@ Copy and paste the first *two lines* of output below.
 
 What command was repeated?
 ----------
-
+//Answer
+the command that is repeat is ls -a
 
 
 ==========
@@ -79,7 +101,8 @@ What command was repeated?
 
 What command was repeated?
 ----------
-
+//Answer
+the command that is repeat is ls -a
 
 
 ==========
@@ -89,7 +112,8 @@ $ ls /Vol<TAB><ENTER>
 
 What is the result of pressing tab?
 ----------
-
+//Answer
+The result of pressing <TAB> is to finish spelling the word that you start to type
 
 
 ==========
@@ -100,17 +124,22 @@ $ ls doesnotexist
 Copy and paste the output below.
 ----------
 
-
+//Answer
+ls: doesnotexist: No such file or directory
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
 
-
+//Answer 
+The key you press to go to the previous command is the key <up>
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
+
+//Answer
+The 2 flags were -l and -a
 
 
 
@@ -118,18 +147,24 @@ Copy and paste the output below.
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
 
+//Answer
+The key that is used to attempt to autocomplete a command or a file name is the key <TAB>
 
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
 
+//Answer
+the main command in this exercise is ls (list)
 
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
 
+//Answer
+the arguments that it was pass to the command was D and Volume
 
 
 ==========
@@ -139,7 +174,9 @@ $ foo<ENTER>
 
 Copy and paste the output below.
 ----------
-
+//Answer
+//Output
+-bash: foo: command not found
 
 
 ==========
@@ -150,6 +187,9 @@ Copy and paste the output below.
 Copy and paste the output below.
 ----------
 
+//Answer
+//Output
+-bash: foo: command not found
 
 
 ==========
@@ -159,3 +199,9 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+
+//Answer
+command: ls
+flag: -a
+argument: Desktop
+prompt: $
